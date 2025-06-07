@@ -1,0 +1,195 @@
+
+*{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+
+ background-image: url();
+
+}
+
+.circle{
+position: fixed;
+top:-50vmin;
+left: -50vmin;
+width: 100vmin;
+height: 100vmin;
+border-radius: 47% 53% 61% 39% / 45% 51% 49% 55%;
+background-color: chocolate;
+}
+
+.circle::after{
+    content : "";
+    position: inherit;
+    right: -50vmin;
+    bottom: -55vmin;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background-color: goldenrod;
+    
+}
+
+
+
+#login{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    background-color: bisque;
+    border:3px ;
+    padding: 50px;
+    margin:250px 5px 5px 5px ;
+    justify-self: center;
+    border-radius: 1.25rem;
+    place-items: center;
+
+    
+
+}
+
+#h1{
+    background-color: bisque;
+    position: relative;
+    font-size:xx-large;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+#h2{
+    color: rgb(0, 0, 0,0.5);
+    background-color: bisque;
+}
+
+
+#text{
+    width: 500px;
+    height: 40px;
+    border: 3px;
+    border-style: ridge;
+    border-radius: 1.50rem;
+    margin-left: 40px;
+    
+}
+
+#password{
+    width: 500px;
+    height: 40px;
+    border: 3px;
+    border-style:ridge ;
+    border-radius: 1.50rem;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+#ton{
+  width: 150px;
+  height: 50px;
+  border: 3px;
+  border-style: solid;
+  border-radius: 1.10rem;
+  border-style: ridge;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: chartreuse;
+
+  
+
+
+
+  
+}
+
+#button{
+  width: 500px;
+
+  height: 50px;
+  
+  border: 3px;
+  border-style: solid;
+  border-radius: 1.50rem;
+  border-style: ridge;
+  margin-top: 20px;
+  margin-left: 40px;
+
+
+  
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+
+#h12 {
+    font-style: oblique;
+    background-color: bisque;
+    justify-self: center;
+    padding: auto;
+    margin-top: 100px;
+
+    place-items: center;
+    
+}
+
+#a{
+    background-color: bisque
+    ;
+    place-self: center
+    ;
+    margin-left: 40px;
+
+}
+
+#a:hover{
+    color: rgb(117, 50, 10);
+}
+
+#vertifikasi{
+     height: 400px;
+    width: 600px;
+    position: relative;
+    background-color: bisque;
+    border:3px ;
+    padding: 50px;
+    margin:250px 5px 5px 5px ;
+    justify-self: center;
+    border-radius: 1.25rem;
+    place-items: center;
+
+    
+
+}
+
+#verify{
+     width: 500px;
+    height: 60px;
+    border: 3px;
+    border-style: ridge;
+    border-radius: 1.20rem;
+    margin-left: 40px;
+    
+}
+
+
+#Ending{
+     height: 200px;
+    width: 600px;
+    position: relative;
+    background-color: bisque;
+    border:3px ;
+    padding: 50px;
+    margin:300px 5px 5px 5px ;
+    justify-self: center;
+    border-radius: 1.25rem;
+    place-items: center;
+
+}
+
+
+
+.hidden{
+    display: none;
+}
+
