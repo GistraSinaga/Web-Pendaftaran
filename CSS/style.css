@@ -129,8 +129,7 @@ body{
     font-weight: 100;
        text-shadow: 1px 1px 3px rgba(40, 40, 48, 0.5);
     
-    mix-blend-mode:difference;
-    color: #eee;
+    color:aqua;
 
 
 }
@@ -193,4 +192,38 @@ footer .credit a{
 
 footer .credit{
     color: var(--primary);
+}
+
+@media (max-width: 1000px){
+ 
+ html{
+ font-size: 75%; 
+ }  
+    
+.navbar .navbar-List{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   text-transform: capitalize;
+    
+}
+
+.navbar .navbar-List>li{
+    list-style-type: none;
+    padding: 1rem;
+    padding-right: 180px;
+   
+}
+
+.navbar .navbar-List>li>a{
+    color: var(--primary);
+    text-decoration: none;
+}
+.navbar .navbar-List .human{
+    display: none;
+}
+
+
 }
